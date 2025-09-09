@@ -38,6 +38,7 @@ public class TicTacToe {
                 System.out.println("Invalid move. Try Again !");
             }
         }
+        printBoard(board);
     }
     public static boolean hadWon(char[][]board,char player){
 
