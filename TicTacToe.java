@@ -25,11 +25,14 @@ public class TicTacToe {
                 if(gameOver){
                     System.out.println("Player "+player+" has won");
                 }else{
+                    /*
                     if(player=='X'){
                         player='O';
                     }else{
                         player='X';
                     }
+                     */
+                    player=(player=='X')?'O':'X';
                 }
             }else{
                 System.out.println("Invalid move. Try Again !");
@@ -44,3 +47,12 @@ public class TicTacToe {
 
     }
 }
+
+/*
+* git push command
+* cd /e/InteliJDSA/InteliDSA/Project/TicTacToe
+
+*git add .
+*git commit -m "fixed winner check logic"
+*git push
+* */
